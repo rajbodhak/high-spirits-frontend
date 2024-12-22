@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-// import logo from "../assets/logo.svg";
+import logo from "../assets/logo.svg";
 import { FaUserAlt } from "react-icons/fa";
 
 const Navbar = () => {
@@ -8,8 +8,8 @@ const Navbar = () => {
         <div className='w-full fixed z-50'>
             <nav className="flex justify-between items-center h-12 px-4 bg-white/5 backdrop-blur-md border-b border-white/5 shadow-sm z-50 text-white">
                 <NavLink to="/" className="text-lg font-bold">
-                    {/* <img className='h-6 w-6' src={logo} alt="High Spirit Logo" /> */}
-                    <h1>Logo</h1>
+                    <img className='h-6 w-6' src={logo} alt="High Spirit Logo" />
+
                 </NavLink>
 
                 <div className="relative group">
